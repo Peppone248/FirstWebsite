@@ -1,6 +1,6 @@
 #hero{
     height: 800px;
-    background-image: url("/images/5429515-programming-wallpapers.jpg");
+    background-color: rgb(71, 70, 70);
     background-position: center;
     background-size: cover;
 }
@@ -45,5 +45,45 @@
 }
 
 #hero-content a:hover{
-    background-color: rgb(172, 83, 20);
+    background-color: rgb(184, 86, 16);
+}
+
+#highlights h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 36px;
+    margin: 24px;
+}
+
+#highlights {
+    padding: 24px;
+    background: linear-gradient(180deg, rgb(70, 67, 67), rgb(202, 191, 191));
+}
+
+#destinations {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-left: 300px;
+}
+
+.destination {
+    margin: 0 20px;
+    text-transform: uppercase;
+}
+
+.destination p {
+    text-align: center;
+    color: chocolate;
+    font-size: 24px;
+    margin: 20px;
+}
+
+.destination img{
+    height: 200px;
+    width: 100%;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 10px;
+    object-fit: contain;
 }

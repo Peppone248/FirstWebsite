@@ -14,6 +14,9 @@ header{
   justify-content: space-between;
   align-items: center;
   padding: 15px 60px;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 header ul{
@@ -27,9 +30,23 @@ header li{
 
 #page-logo a {
     padding: 10px;
-    font-family: "Oleo Script", sans-serif;
+    font-family: "Goldman", sans-serif;
     color: royalblue;
     font-size: 50px;
     text-decoration: none;
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+header a{
+  color: chocolate;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 12px;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  border-radius: 6px;
+}
+
+header a:hover{
+  color: rgb(77, 77, 77);
+  background-color: chocolate;
 }
